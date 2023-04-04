@@ -15,15 +15,48 @@ class MahasiswaSeeder extends Seeder
      */
     public function run()
     {
-        $data = [
-            [
-                'nim' => '2141720086',
-                'nama' => 'Roziq Mahbubi',
-                'kelas' => 'TI-2G',
-                'jurusan' => 'Teknologi Informasi',
-                'no_hp' => '087x-xxxx-xxxx'
-            ],
-        ];
-        DB::table('mahasiswas')->insert($data);
+        // $data = [
+        //     [
+        //         'nim' => '1101',
+        //         'nama' => 'Islah Fiesta',
+        //         'tgl_lahir' => '01-01-2000',
+        //         'kelas' => 'TI-2G',
+        //         'jurusan' => 'Teknologi Informasi',
+        //         'no_hp' => '087x-xxxx-xxxx'
+        //     ],
+        //     [
+        //         'nim' => '1102',
+        //         'nama' => 'Igmal Sahur',
+        //         'tgl_lahir' => '01-01-2000',
+        //         'kelas' => 'TI-2G',
+        //         'jurusan' => 'Teknologi Informasi',
+        //         'no_hp' => '087x-xxxx-xxxx'
+        //     ],
+        //     [
+        //         'nim' => '1103',
+        //         'nama' => 'Tosin Dugdug',
+        //         'tgl_lahir' => '01-01-2000',
+        //         'kelas' => 'TI-2G',
+        //         'jurusan' => 'Teknologi Informasi',
+        //         'no_hp' => '087x-xxxx-xxxx'
+        //     ],
+        //     [
+        //         'nim' => '1104',
+        //         'nama' => 'Agung FF',
+        //         'tgl_lahir' => '01-01-2000',
+        //         'kelas' => 'TI-2G',
+        //         'jurusan' => 'Teknologi Informasi',
+        //         'no_hp' => '087x-xxxx-xxxx'
+        //     ],
+        //     [
+        //         'nim' => '1105',
+        //         'nama' => 'Fahmi Wadimor',
+        //         'tgl_lahir' => '01-01-2000',
+        //         'kelas' => 'TI-2G',
+        //         'jurusan' => 'Teknologi Informasi',
+        //         'no_hp' => '087x-xxxx-xxxx'
+        //     ],
+        // ];
+        // DB::table('mahasiswas')->insert($data);
     }
 }
